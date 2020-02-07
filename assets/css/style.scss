@@ -1,0 +1,56 @@
+$bgDark: #005580;
+$bgLight: #006699;
+$mainTextColor: white;
+$maxColor: #ff8080;
+$minColor: #00aaff;
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	max-width: 1200px;
+	div{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.bgLight{
+	background-color: $bgLight;
+}
+
+.bgDark{
+	background-color: $bgDark;
+}
+
+.weather {
+	color: $mainTextColor;
+}
+
+.max-temp{
+	color: $maxColor;
+}
+
+
+.min-temp{
+	color: $minColor;
+}
+
+.weather-icon{
+	max-width: 50px;
+}

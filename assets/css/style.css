@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.container div {
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.bgLight {
+  background-color: #006699;
+}
+
+.bgDark {
+  background-color: #005580;
+}
+
+.weather {
+  color: white;
+}
+
+.max-temp {
+  color: #ff8080;
+}
+
+.min-temp {
+  color: #00aaff;
+}
+
+.weather-icon {
+  max-width: 50px;
+}
+/*# sourceMappingURL=style.css.map */
